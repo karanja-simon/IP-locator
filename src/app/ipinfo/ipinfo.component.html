@@ -1,0 +1,80 @@
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="card">
+            <table class="table table-responsive-sm table-hover table-outline table-vcenter card-table">
+
+              <tbody>
+              <tr *ngFor="let info of ipInfo">
+                <td class="text-center">
+                  <div class="avatar d-block" [ngStyle]="{'background-image': 'url(./assets/images/flags/' + info.country + '.SVG)'}" >
+                  </div>
+                </td>
+                <td>
+                  <div>COUNTRY</div>
+                  <div class="small text-muted">
+                    {{info.country}}
+                  </div>
+                </td>
+                <td>
+                  <div>ISP</div>
+                  <div class="small text-muted">
+                    {{info.hostname}}
+                  </div>
+                </td>
+                <td>
+                  <div>ORG</div>
+                  <div class="small text-muted">
+                    {{info.org}}
+                  </div>
+                </td>
+                <td>
+                  <div>REGION</div>
+                  <div class="small text-muted">
+                    {{info.region}}
+                  </div>
+                </td>
+
+              </tr>
+              <tr *ngFor="let info of ipInfo">
+                <td>
+                  <div>CITY</div>
+                  <div class="small text-muted">
+                    {{info.city}}
+                  </div>
+                </td>
+                <td>
+                  <div>IP</div>
+                  <div class="small text-muted">
+                    {{info.ip}}
+                  </div>
+                </td>
+                <td>
+                  <div>LOCATION</div>
+                  <div class="small text-muted">
+                    {{info.loc}}
+                  </div>
+                </td>
+                <td>
+                  <div>TIMEZONE</div>
+                  <div class="small text-muted">
+                    --
+                  </div>
+                </td>
+                <td>
+                  <div>COUNTRY CODE</div>
+                  <div class="small text-muted">
+                    {{info.country}}
+                  </div>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

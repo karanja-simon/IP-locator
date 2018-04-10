@@ -1,0 +1,24 @@
+<div class="header">
+  <div class="container">
+    <div class="navbar p-0">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./assets/brand/logo.png" class="navbar-brand-img" alt="tabler.io">
+      </a>
+      <div class="nav order-lg-2">
+        <div class="nav-item">
+          <a href="https://github.com/tabler/tabler" class="btn btn-sm btn-outline-primary" target="_blank">Source code</a>
+        </div>
+
+        <div class="nav-item">
+          <form class="input-icon" (submit)="searchByIp()">
+            <input type="text" [(ngModel)]="ip" name="ip" class="form-control header-search" placeholder="Search by IP &hellip;" tabindex="1">
+            <div class="input-icon-addon">
+              <i class="fe fe-search"></i>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
