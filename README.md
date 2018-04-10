@@ -1,6 +1,9 @@
 # IpLocator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+An IP location application that pulls your IP location and information and displays your realtime location on map https://iplocator-a062b.firebaseapp.com
+
+
+
 
 ## Development server
 
