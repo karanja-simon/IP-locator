@@ -2,7 +2,7 @@
 
 An IP location application that pulls your IP location and information and displays your realtime location on map https://iplocator-a062b.firebaseapp.com
 
-
+![alt text](ip_locator_sc.png?raw=true)
 
 
 ## Development server
