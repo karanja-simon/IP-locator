@@ -1,6 +1,6 @@
 # IpLocator
 
-An IP location application that pulls your IP location and information and displays your realtime location on map https://iplocator-a062b.firebaseapp.com
+An IP location application that pulls your IP location and information and displays your realtime location on map https://skdev.work/apps/iplocator
 
 ![alt text](ip_locator_sc.png?raw=true)
 
